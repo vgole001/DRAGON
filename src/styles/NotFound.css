@@ -1,0 +1,25 @@
+  .notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 23em;
+    height: 17em;
+  }
+
+  .notFoundText{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-left: 155px;
+    width: 18em;
+  }
+
+  .btn.btn-warning{
+    width: 60%;
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+  
