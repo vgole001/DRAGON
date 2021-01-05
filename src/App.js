@@ -132,6 +132,7 @@ class App extends React.Component {
     }
   }
   render() {
+    {console.log('I am in love with the coco.')}
     const appContext = {
       isAuth: this.state.isAuthenticated,
       token: this.state.token,
@@ -140,7 +141,6 @@ class App extends React.Component {
       logOut: this.handleLogout
     }
     return (
-
       // First time we load our app it will start by checking the current auth state
       !this.state.isAuthenticating && (
         <div >
