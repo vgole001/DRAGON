@@ -134,6 +134,7 @@ class App extends React.Component {
   render() {
     console.log('This is a new change.')
     console.log('This is another change.')
+    console.log('More changes.')
     const appContext = {
       isAuth: this.state.isAuthenticated,
       token: this.state.token,
